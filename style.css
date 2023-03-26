@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #DEE2E6;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.add__task {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 600px;
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+.input__todo {
+    height: 40px;
+    width: 350px;
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding-left: 13px;
+}
+
+.btn__add {
+    height: 39px;
+    width: 166px;
+    border-radius: 4px;
+    padding: 10px, 16px, 10px, 16px;
+    background-color: rgb(0, 200, 255);
+    border-style: none;
+    color: #FFFFFF;
+    /* margin-right: 24px; */
+}
+
+/* JS part style */
+
+.checkbox {
+    height: 16px;
+    width: 16px;
+    border-radius: 2px;
+    border: 1px solid #ABB5BE
+}
+
+.container {
+    border: 1px solid #CED4DA;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.delete {
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.new__todo {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    justify-content: center;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+/* .wrapper {
+    display: flex;
+    display:
+
+        justify-content: center;
+
+} */
+
+span {
+    /* height: 21px; */
+    width: 455px;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #54595E;
+}
+
+.mystyle {
+    text-decoration: line-through;
+}
+
+.delete__done {
+    height: 40px;
+    width: 130px;
+    border-radius: 4px;
+    padding: 10px, 16px, 10px, 16px;
+    background-color: #6C757D;
+    color: #FFFFFF;
+    border: none;
+    /* margin-left: 24px;
+    margin-top: 18px;
+    margin-bottom: 18px; */
+}
+
+.delete__all {
+    height: 40px;
+    width: 130px;
+    border-radius: 4px;
+    padding: 10px, 6px, 10px, 6px;
+    border: none;
+    background-color: #DC3545;
+    color: #FFFFFF;
+    /* margin-top: 18px;
+    margin-bottom: 18px; */
+}
+
+.two__buttons {
+
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
